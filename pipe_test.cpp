@@ -24,7 +24,7 @@ void uppercase(char str[], int count)
 {
   char temp[count+1];
   int i = 0;
-
+  
   for(i = 0; i < count+1; i++)
   {
     if(isdigit(str[i]))
